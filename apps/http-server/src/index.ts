@@ -19,6 +19,9 @@ app.use(
 );
 
 app.use("/api/v1/auth", authRouter);
+// app.use("/api/v1/health-check", (req: Request, res) => {
+
+// })
 app.use("/api/v1/room", roomRouter);
 app.use("/api/v1/content", contentRouter);
 
